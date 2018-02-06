@@ -254,22 +254,16 @@ footer {
     /* main */
     section {
         width: 358px;
-        float: left;
     }
 
     #profile-picture {
-        padding-right: 27px;
-        padding-top: 10px;
         width: 360px;
         height: 100%;
         margin-bottom: 20px;
     }
 
     .container {
-        clear: both;
         max-width: 727px;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     /* portfolio */
@@ -281,19 +275,13 @@ footer {
     li div {
         height: 267px;
         width: 360px;
-        margin-top: 20px;
-        margin-bottom: 30px;
-        overflow: hidden;
         background-size: 100%;
+        margin-bottom: 20px;
     }
 
     .piece-title {
-        text-align: center;
-        height: 40px;
-        padding-top: 20px;
         width: 360px;
         margin-top: 200px;
-        background-color: #4aaaa5;
     }
 
     /* contact */
@@ -303,17 +291,65 @@ footer {
     }
 
     input, textarea {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 0.9rem;
-        color: #bbb;
         width: 340px;
-        border: 1px solid #ddd;
-        padding: 10px;
-        margin: 10px 30px 20px 0;
     }
 
     textarea {
         height: 180px;
     }
+
+}
+
+@media only screen and (max-width: 768px) {
+    
+     /* main */
+
+    section {
+        width: 666px;
+        float: none;
+    }
+
+    #profile-picture {
+        width: 334px;
+        margin-bottom: none;
+    }
+
+    aside {
+        width: 666px;
+        float: none;
+        margin-bottom: 40px;
+    }
+
+        /* portfolio */
+
+    .floater {
+        float: right;
+    }
+
+    li div {
+        height: 232px;
+        width: 313px;
+    }
+
+    .piece-title {
+        width: 313px;
+        margin-top: 166px;
+    }
+
+    /* contact */
+
+    form {
+        width: 660px;
+    }
+
+    input, textarea {
+        color: #bbb;
+        width: 640px;
+    }
+
+    textarea {
+        height: 180px;
+    }
+
 
 }
