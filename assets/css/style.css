@@ -204,6 +204,10 @@ li div {
     background-image: url("../images/rps.jpg");
 }
 
+#liri {
+    background-image: url("../images/liri.jpg");
+}
+
 .piece-title {
     text-align: center;
     height: 40px;
