@@ -208,6 +208,10 @@ li div {
     background-image: url("../images/liri.jpg");
 }
 
+#bamazon {
+    background-image: url("https://raw.githubusercontent.com/jamesgneal/bamazon/master/images/2.png");
+}
+
 .piece-title {
     text-align: center;
     height: 40px;
