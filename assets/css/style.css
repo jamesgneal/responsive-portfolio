@@ -212,6 +212,10 @@ li div {
     background-image: url("https://raw.githubusercontent.com/jamesgneal/bamazon/master/images/2.png");
 }
 
+#friend-finder {
+    background-image: url("../images/friend.png");
+}
+
 .piece-title {
     text-align: center;
     height: 40px;
